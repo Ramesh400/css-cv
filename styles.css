@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+a:active {
+    color:blue
+}
+
+a:visited {
+    color:grey;
+}
+
+.avatar {
+    width: 350px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* Box Model */
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.list {
+    padding: 0 20px;
+    
+}
+
+.list li {
+    color: #86898f;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86898f;
+}
+
+/*.table tr:nth-child(even четные) {
+    background-color: darksalmon;
+}
+
+.table tr:nth-child(odd нечетные) {
+    background-color: darkslateblue ;
+}*/
+
+
+.link_list {
+    list-style: circle;
+    padding: 0;
+}
+
+.link_list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #5e5b5b;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    /*background: transparent;*/
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+/*.social {
+    background: greenyellow;
+    /*padding: 15px 30px 25px 20px;*/
+    /*padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    margin: 5px;
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: aqua;*/
+
+
